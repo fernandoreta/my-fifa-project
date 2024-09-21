@@ -8,5 +8,11 @@
   }
 .my-nav {
     border-radius: 15px;
-    margin: 20px;
-}  
+    margin: 25px;
+  }
+.main {
+  position: sticky; top: 0;
+  z-index: 1;
+  background-color: white;
+  height: 200px;
+}
