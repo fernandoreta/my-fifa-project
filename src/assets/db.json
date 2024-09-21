@@ -1,0 +1,312 @@
+{
+    "premierLeagueTable": [
+      {
+        "team": "Manchester City",
+        "points": 85,
+        "goalsFor": 95,
+        "goalsAgainst": 32,
+        "goalDifference": 63,
+        "won": 27,
+        "lost": 4,
+        "drawn": 4,
+        "playedGames": 35
+      },
+      {
+        "team": "Liverpool",
+        "points": 83,
+        "goalsFor": 89,
+        "goalsAgainst": 36,
+        "goalDifference": 53,
+        "won": 26,
+        "lost": 5,
+        "drawn": 5,
+        "playedGames": 36
+      },
+      {
+        "team": "Chelsea",
+        "points": 70,
+        "goalsFor": 75,
+        "goalsAgainst": 44,
+        "goalDifference": 31,
+        "won": 21,
+        "lost": 8,
+        "drawn": 7,
+        "playedGames": 36
+      },
+      {
+        "team": "Tottenham Hotspur",
+        "points": 68,
+        "goalsFor": 65,
+        "goalsAgainst": 40,
+        "goalDifference": 25,
+        "won": 20,
+        "lost": 10,
+        "drawn": 8,
+        "playedGames": 36
+      },
+      {
+        "team": "Arsenal",
+        "points": 67,
+        "goalsFor": 62,
+        "goalsAgainst": 38,
+        "goalDifference": 24,
+        "won": 19,
+        "lost": 9,
+        "drawn": 10,
+        "playedGames": 36
+      },
+      {
+        "team": "Manchester United",
+        "points": 65,
+        "goalsFor": 60,
+        "goalsAgainst": 42,
+        "goalDifference": 18,
+        "won": 19,
+        "lost": 11,
+        "drawn": 8,
+        "playedGames": 36
+      },
+      {
+        "team": "West Ham United",
+        "points": 58,
+        "goalsFor": 55,
+        "goalsAgainst": 50,
+        "goalDifference": 5,
+        "won": 16,
+        "lost": 12,
+        "drawn": 10,
+        "playedGames": 36
+      },
+      {
+        "team": "Leicester City",
+        "points": 55,
+        "goalsFor": 53,
+        "goalsAgainst": 51,
+        "goalDifference": 2,
+        "won": 15,
+        "lost": 14,
+        "drawn": 10,
+        "playedGames": 36
+      },
+      {
+        "team": "Brighton & Hove Albion",
+        "points": 52,
+        "goalsFor": 51,
+        "goalsAgainst": 48,
+        "goalDifference": 3,
+        "won": 14,
+        "lost": 15,
+        "drawn": 10,
+        "playedGames": 36
+      },
+      {
+        "team": "Wolverhampton Wanderers",
+        "points": 49,
+        "goalsFor": 45,
+        "goalsAgainst": 47,
+        "goalDifference": -2,
+        "won": 14,
+        "lost": 17,
+        "drawn": 7,
+        "playedGames": 36
+      },
+      {
+        "team": "Newcastle United",
+        "points": 46,
+        "goalsFor": 44,
+        "goalsAgainst": 50,
+        "goalDifference": -6,
+        "won": 12,
+        "lost": 16,
+        "drawn": 10,
+        "playedGames": 36
+      },
+      {
+        "team": "Crystal Palace",
+        "points": 44,
+        "goalsFor": 42,
+        "goalsAgainst": 50,
+        "goalDifference": -8,
+        "won": 11,
+        "lost": 15,
+        "drawn": 11,
+        "playedGames": 37
+      },
+      {
+        "team": "Brentford",
+        "points": 43,
+        "goalsFor": 45,
+        "goalsAgainst": 53,
+        "goalDifference": -8,
+        "won": 12,
+        "lost": 16,
+        "drawn": 7,
+        "playedGames": 35
+      },
+      {
+        "team": "Southampton",
+        "points": 40,
+        "goalsFor": 41,
+        "goalsAgainst": 61,
+        "goalDifference": -20,
+        "won": 10,
+        "lost": 17,
+        "drawn": 10,
+        "playedGames": 37
+      },
+      {
+        "team": "Aston Villa",
+        "points": 38,
+        "goalsFor": 42,
+        "goalsAgainst": 57,
+        "goalDifference": -15,
+        "won": 11,
+        "lost": 18,
+        "drawn": 5,
+        "playedGames": 34
+      },
+      {
+        "team": "Everton",
+        "points": 37,
+        "goalsFor": 39,
+        "goalsAgainst": 57,
+        "goalDifference": -18,
+        "won": 10,
+        "lost": 20,
+        "drawn": 7,
+        "playedGames": 37
+      },
+      {
+        "team": "Leeds United",
+        "points": 36,
+        "goalsFor": 42,
+        "goalsAgainst": 62,
+        "goalDifference": -20,
+        "won": 9,
+        "lost": 20,
+        "drawn": 9,
+        "playedGames": 38
+      },
+      {
+        "team": "Burnley",
+        "points": 34,
+        "goalsFor": 34,
+        "goalsAgainst": 55,
+        "goalDifference": -21,
+        "won": 7,
+        "lost": 18,
+        "drawn": 13,
+        "playedGames": 38
+      },
+      {
+        "team": "Watford",
+        "points": 23,
+        "goalsFor": 33,
+        "goalsAgainst": 65,
+        "goalDifference": -32,
+        "won": 6,
+        "lost": 24,
+        "drawn": 5,
+        "playedGames": 35
+      },
+      {
+        "team": "Norwich City",
+        "points": 22,
+        "goalsFor": 23,
+        "goalsAgainst": 73,
+        "goalDifference": -50,
+        "won": 5,
+        "lost": 26,
+        "drawn": 7,
+        "playedGames": 38
+      }
+    ],
+    "premierLeagueTopScorers": [
+      {
+        "player": "Erling Haaland",
+        "team": "Manchester City",
+        "goals": 28
+      },
+      {
+        "player": "Mohamed Salah",
+        "team": "Liverpool",
+        "goals": 26
+      },
+      {
+        "player": "Harry Kane",
+        "team": "Tottenham Hotspur",
+        "goals": 24
+      },
+      {
+        "player": "Cristiano Ronaldo",
+        "team": "Manchester United",
+        "goals": 22
+      },
+      {
+        "player": "Heung-Min Son",
+        "team": "Tottenham Hotspur",
+        "goals": 20
+      },
+      {
+        "player": "Sadio Mané",
+        "team": "Liverpool",
+        "goals": 18
+      },
+      {
+        "player": "Diogo Jota",
+        "team": "Liverpool",
+        "goals": 17
+      },
+      {
+        "player": "Jamie Vardy",
+        "team": "Leicester City",
+        "goals": 15
+      },
+      {
+        "player": "Raheem Sterling",
+        "team": "Manchester City",
+        "goals": 14
+      },
+      {
+        "player": "Bruno Fernandes",
+        "team": "Manchester United",
+        "goals": 13
+      }
+    ],     
+    "ligaMxTable": [
+        { "team": "Cruz Azul", "points": 38, "goalsFor": 30, "goalsAgainst": 15, "goalDifference": 15, "won": 12, "lost": 4, "drawn": 2, "playedGames": 18 },
+        { "team": "Monterrey", "points": 36, "goalsFor": 28, "goalsAgainst": 14, "goalDifference": 14, "won": 11, "lost": 5, "drawn": 3, "playedGames": 18 },
+        { "team": "Tigres", "points": 34, "goalsFor": 25, "goalsAgainst": 17, "goalDifference": 8, "won": 10, "lost": 5, "drawn": 4, "playedGames": 18 },
+        { "team": "Toluca", "points": 32, "goalsFor": 27, "goalsAgainst": 19, "goalDifference": 8, "won": 9, "lost": 6, "drawn": 5, "playedGames": 18 },
+        { "team": "León", "points": 30, "goalsFor": 24, "goalsAgainst": 18, "goalDifference": 6, "won": 9, "lost": 7, "drawn": 3, "playedGames": 18 },
+        { "team": "Pachuca", "points": 29, "goalsFor": 22, "goalsAgainst": 21, "goalDifference": 1, "won": 8, "lost": 7, "drawn": 5, "playedGames": 18 },
+        { "team": "Guadalajara", "points": 28, "goalsFor": 23, "goalsAgainst": 21, "goalDifference": 2, "won": 8, "lost": 8, "drawn": 4, "playedGames": 18 },
+        { "team": "Pumas", "points": 26, "goalsFor": 21, "goalsAgainst": 20, "goalDifference": 1, "won": 7, "lost": 9, "drawn": 5, "playedGames": 18 },
+        { "team": "Santos Laguna", "points": 24, "goalsFor": 19, "goalsAgainst": 22, "goalDifference": -3, "won": 7, "lost": 10, "drawn": 3, "playedGames": 18 },
+        { "team": "Atlas", "points": 22, "goalsFor": 18, "goalsAgainst": 23, "goalDifference": -5, "won": 6, "lost": 11, "drawn": 4, "playedGames": 18 },
+        { "team": "Necaxa", "points": 20, "goalsFor": 16, "goalsAgainst": 24, "goalDifference": -8, "won": 5, "lost": 11, "drawn": 5, "playedGames": 18 },
+        { "team": "Querétaro", "points": 18, "goalsFor": 14, "goalsAgainst": 26, "goalDifference": -12, "won": 4, "lost": 12, "drawn": 6, "playedGames": 18 },
+        { "team": "FC Juárez", "points": 17, "goalsFor": 12, "goalsAgainst": 25, "goalDifference": -13, "won": 4, "lost": 12, "drawn": 5, "playedGames": 18 },
+        { "team": "Tijuana", "points": 16, "goalsFor": 13, "goalsAgainst": 28, "goalDifference": -15, "won": 4, "lost": 13, "drawn": 4, "playedGames": 18 },
+        { "team": "Atlético San Luis", "points": 15, "goalsFor": 12, "goalsAgainst": 26, "goalDifference": -14, "won": 3, "lost": 13, "drawn": 6, "playedGames": 18 },
+        { "team": "Mazatlán", "points": 13, "goalsFor": 11, "goalsAgainst": 29, "goalDifference": -18, "won": 3, "lost": 14, "drawn": 4, "playedGames": 18 },
+        { "team": "Puebla", "points": 12, "goalsFor": 10, "goalsAgainst": 27, "goalDifference": -17, "won": 2, "lost": 14, "drawn": 6, "playedGames": 18 },
+        { "team": "America", "points": 10, "goalsFor": 9, "goalsAgainst": 30, "goalDifference": -21, "won": 2, "lost": 15, "drawn": 4, "playedGames": 18 }
+    ],
+    "ligaMxTopScorers": [
+      { "playerName": "André-Pierre Gignac", "teamName": "Tigres", "goals": 15 },
+      { "playerName": "Jonathan Rodríguez", "teamName": "América", "goals": 13 },
+      { "playerName": "Rogelio Funes Mori", "teamName": "Monterrey", "goals": 12 },
+      { "playerName": "Alexis Vega", "teamName": "Guadalajara", "goals": 11 },
+      { "playerName": "Carlos González", "teamName": "Pumas", "goals": 10 },
+      { "playerName": "Víctor Dávila", "teamName": "León", "goals": 9 },
+      { "playerName": "Germán Berterame", "teamName": "Santos Laguna", "goals": 9 },
+      { "playerName": "Julio Furch", "teamName": "Atlas", "goals": 8 },
+      { "playerName": "Nicolás Ibáñez", "teamName": "Pachuca", "goals": 8 },
+      { "playerName": "Juan Ignacio Dinenno", "teamName": "Pumas", "goals": 7 }
+    ],
+    "tables": [
+      "Premier", "Liga Mx"
+    ]
+}
+  

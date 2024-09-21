@@ -4,57 +4,57 @@
           Team List
         </div>
       
-        <div class="card-body"
-             >
-             <!-- *ngIf="vm$ | async as vm" -->
+        <div class="card-body" *ngIf="vm$ | async as vm">
           <div class="container">
-            <!-- <div class="row justify-content-between">
+            <div class="row justify-content-between">
               <div class="col-3">
                 <select class="form-control"
-                        (change)="onSelected($any($event.target).value)">
-                  <option value="0">- Display All -</option>
-                  <option *ngFor="let category of vm.categories"
-                          [value]="category.id">{{ category.name }}</option>
+                        (change)="changeLeague($any($event.target).value)">
+                  <option *ngFor="let league of vm.leagues" [value]="league">
+                    {{ league }}
+                  </option>
                 </select>
               </div>
-              <div class="col-2">
-                <button type="button"
-                        class="btn btn-outline-secondary"
-                        (click)="onAdd()">Add Product
-                </button>
-              </div>
-            </div> -->
+            </div>
           </div>
       
           <div class="table-responsive">
-            <!-- <table class="table mb-0"
-                   *ngIf="vm.products">
+            <table class="table mb-0"
+                   *ngIf="vm.leagueData">
               <thead>
                 <tr>
-                  <th>Product</th>
-                  <th>Code</th>
-                  <th>Category</th>
-                  <th>Price</th>
-                  <th>In Stock</th>
+                  <th>Team Name</th>
+                  <th>Points</th>
+                  <th>Goals For</th>
+                  <th>Goals Against</th>
+                  <th>Goals Diff</th>
+                  <th>Won</th>
+                  <th>Lost</th>
+                  <th>Drawn</th>
+                  <th>Played Games</th>
                 </tr>
               </thead>
               <tbody>
-                <tr *ngFor="let product of vm.products">
-                  <td>{{ product.productName }}</td>
-                  <td>{{ product.productCode }}</td>
-                  <td>{{ product.category }}</td>
-                  <td>{{ product.price | currency:"USD":"symbol":"1.2-2" }}</td>
-                  <td>{{ product.quantityInStock }}</td>
+                <tr *ngFor="let team of vm.leagueData">
+                  <td>{{ team.team }}</td>
+                  <td>{{ team.points }}</td>
+                  <td>{{ team.goalsFor }}</td>
+                  <td>{{ team.goalsAgainst }}</td>
+                  <td>{{ team.goalDifference }}</td>
+                  <td>{{ team.won }}</td>
+                  <td>{{ team.lost }}</td>
+                  <td>{{ team.drawn }}</td>
+                  <td>{{ team.playedGames }}</td>
                 </tr>
               </tbody>
-            </table> -->
+            </table>
           </div>
       
         </div>
       </div>
       
-      <!-- <div class="alert alert-danger"
+      <div class="alert alert-danger"
            *ngIf="errorMessage$ | async as errorMessage">
         {{ errorMessage }}
-      </div> -->
+      </div>
 </div>
