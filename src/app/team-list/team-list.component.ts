@@ -1,9 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { BehaviorSubject, catchError, combineLatest, EMPTY, map, shareReplay, Subject, switchMap } from 'rxjs';
+import { BehaviorSubject, catchError, combineLatest, EMPTY, map, Observable, shareReplay, Subject, switchMap } from 'rxjs';
 import { ApiStadisticsService } from '../services/api-stadistics.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { LeagueNames } from '../../assets/enums';
+import { ILeagueTable } from '../interfaces/interfaces';
 
 @Component({
   selector: 'app-team-list',
@@ -23,7 +24,7 @@ export class TeamListComponent {
   private errorMessageSubject = new Subject<string>();
   errorMessage$ = this.errorMessageSubject.asObservable();
 
-  premierLeagueTable$ = this.apiStats.getLeagueTable(LeagueNames.premierLeagueTable)
+  premierLeagueTable$: Observable<ILeagueTable[]> = this.apiStats.getLeagueTable(LeagueNames.premierLeagueTable)
     .pipe(
       shareReplay(1),//share the last value
       catchError(err => {
@@ -32,7 +33,7 @@ export class TeamListComponent {
       })
     );
 
-  ligaMxTable$ = this.apiStats.getLeagueTable(LeagueNames.ligaMxTable)
+  ligaMxTable$: Observable<ILeagueTable[]> = this.apiStats.getLeagueTable(LeagueNames.ligaMxTable)
     .pipe(
       shareReplay(1),//share the last value
       catchError(err => {
@@ -41,7 +42,7 @@ export class TeamListComponent {
       })
     );
 
-  leagues$ = this.apiStats.getJsonTables()
+  leagues$: Observable<string[]> = this.apiStats.getJsonTables()
     .pipe(
       shareReplay(1),//share the last value
       catchError(err => {

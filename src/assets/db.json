@@ -307,6 +307,27 @@
     ],
     "tables": [
       "Premier", "Liga Mx"
+    ],
+    "pageTitle": "Product Details",
+    "product": {
+      "productName": "Sample Product",
+      "productCode": "SP-001",
+      "category": "Electronics",
+      "description": "This is a sample product.",
+      "price": 199.99,
+      "quantityInStock": 50
+    },
+    "productSuppliers": [
+      {
+        "name": "Supplier A",
+        "cost": 180.00,
+        "minQuantity": 10
+      },
+      {
+        "name": "Supplier B",
+        "cost": 190.00,
+        "minQuantity": 5
+      }
     ]
 }
   
